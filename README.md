@@ -2,8 +2,7 @@
 
 Landing page de mi currículum, hecha con **HTML, CSS y JavaScript puro** (sin frameworks ni build). Incluye gráficos de barras animados de habilidades, timeline de experiencia y diseño responsivo.
 
-🔗 **Ver en línea:** https://TU-USUARIO.github.io/cv-daniel/
-
+🔗 **Ver en línea:** https://rancheritomcfly.github.io/cv-daniel/
 ---
 
 ## 🗂️ Estructura del proyecto
@@ -90,7 +89,7 @@ GitHub Pages vuelve a publicar solo en 1–2 minutos.
 3. En *Source* elegir **Deploy from a branch**.
 4. Branch: **main** · carpeta: **/ (root)** · **Save**.
 5. Esperar 1–2 min. La URL queda como
-   `https://TU-USUARIO.github.io/cv-daniel/`
+   `https://rancheritomcfly.github.io/cv-daniel/`
 
 ---
 
