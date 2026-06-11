@@ -14,13 +14,13 @@ cv-daniel/
 ├── css/
 │   └── styles.css      # Todos los estilos
 ├── js/
-│   ├── data.js         # ← AQUÍ editas tu CV (experiencia, formación, skills)
+│   ├── data.js         # ← AQUÍ edito el CV (experiencia, formación, skills)
 │   ├── skills.js       # Render y animación de barras
 │   └── main.js         # Timeline, educación, nav, contadores
 └── README.md
 ```
 
-**Para actualizar tu información solo edita `js/data.js`.** No necesitas tocar el HTML.
+**Para actualizar la información solo edito `js/data.js`.**.
 
 ---
 
