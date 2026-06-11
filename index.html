@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daniel Michael Lugo Meléndez · Analista de Datos</title>
+  <meta name="description" content="Analista Técnico de Base de Datos. Perfil mixto: datos, desarrollo web y procesos. Guanajuato, México." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,900&family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <!-- ====== NAV ====== -->
+  <nav class="nav" id="nav">
+    <a href="#top" class="nav__brand">DML<span>.</span></a>
+    <button class="nav__toggle" id="navToggle" aria-label="Abrir menú">≡</button>
+    <ul class="nav__links" id="navLinks">
+      <li><a href="#perfil">Perfil</a></li>
+      <li><a href="#habilidades">Habilidades</a></li>
+      <li><a href="#experiencia">Experiencia</a></li>
+      <li><a href="#formacion">Formación</a></li>
+      <li><a href="#contacto" class="nav__cta">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <!-- ====== HERO ====== -->
+  <header class="hero" id="top">
+    <div class="hero__grid">
+      <div class="hero__intro">
+        <p class="eyebrow">Analista Técnico de Base de Datos</p>
+        <h1 class="hero__name">Daniel Michael<br />Lugo Meléndez</h1>
+        <p class="hero__lede">
+          Convierto datos en decisiones. Perfil mixto entre análisis de información,
+          desarrollo web y procesos, con experiencia en el sector público del Estado de Guanajuato.
+        </p>
+        <div class="hero__actions">
+          <a href="#contacto" class="btn btn--solid">Contáctame</a>
+          <a href="#experiencia" class="btn btn--ghost">Ver trayectoria</a>
+        </div>
+      </div>
+      <aside class="hero__stats" aria-label="Indicadores">
+        <div class="stat">
+          <span class="stat__num" data-count="3">0</span>
+          <span class="stat__label">años en analítica de datos en gobierno</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num" data-count="2">0</span>
+          <span class="stat__label">licenciaturas + 1 maestría</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num" data-count="10" data-suffix="+">0</span>
+          <span class="stat__label">tecnologías de datos y desarrollo</span>
+        </div>
+      </aside>
+    </div>
+  </header>
+
+  <main>
+    <!-- ====== PERFIL ====== -->
+    <section class="section" id="perfil">
+      <div class="section__head">
+        <span class="section__idx">01</span>
+        <h2 class="section__title">Perfil profesional</h2>
+      </div>
+      <div class="perfil">
+        <p>
+          Analista Técnico de Base de Datos con formación en Informática Administrativa y
+          una maestría en Desarrollo Organizacional. Trabajo en la intersección de tres mundos:
+          el análisis cuantitativo de información, el desarrollo y mantenimiento de plataformas web,
+          y el entendimiento de procesos y personas.
+        </p>
+        <p>
+          Genero tableros, reportes e indicadores a partir de bases de datos MySQL; diseño y
+          mantengo servicios web institucionales; y administro servidores Linux. Me orienta la
+          calidad de los datos y la utilidad de la información para la toma de decisiones.
+        </p>
+        <ul class="perfil__tags">
+          <li>Análisis de datos</li>
+          <li>SQL / MySQL</li>
+          <li>Python</li>
+          <li>Desarrollo web</li>
+          <li>Administración Linux</li>
+          <li>Power BI</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ====== HABILIDADES (GRÁFICOS) ====== -->
+    <section class="section section--dark" id="habilidades">
+      <div class="section__head">
+        <span class="section__idx">02</span>
+        <h2 class="section__title">Habilidades técnicas</h2>
+      </div>
+      <p class="section__note">Nivel de dominio sobre 100. Las barras se animan al entrar en pantalla.</p>
+      <div class="skills" id="skillsChart">
+        <!-- Las barras se generan desde js/skills.js para que edites un solo lugar -->
+      </div>
+
+      <div class="section__head section__head--sub">
+        <h3 class="section__subtitle">Idiomas</h3>
+      </div>
+      <div class="langs" id="langsChart"></div>
+    </section>
+
+    <!-- ====== EXPERIENCIA ====== -->
+    <section class="section" id="experiencia">
+      <div class="section__head">
+        <span class="section__idx">03</span>
+        <h2 class="section__title">Experiencia laboral</h2>
+      </div>
+      <div class="timeline" id="timeline">
+        <!-- Se genera desde js/data.js -->
+      </div>
+    </section>
+
+    <!-- ====== FORMACIÓN ====== -->
+    <section class="section section--dark" id="formacion">
+      <div class="section__head">
+        <span class="section__idx">04</span>
+        <h2 class="section__title">Formación académica</h2>
+      </div>
+      <div class="edu" id="edu">
+        <!-- Se genera desde js/data.js -->
+      </div>
+    </section>
+
+    <!-- ====== CONTACTO ====== -->
+    <section class="section section--contact" id="contacto">
+      <div class="section__head">
+        <span class="section__idx">05</span>
+        <h2 class="section__title">Contacto</h2>
+      </div>
+      <div class="contact">
+        <a class="contact__item" href="mailto:danielmlugo@gmail.com">
+          <span class="contact__label">Correo</span>
+          <span class="contact__value">danielmlugo@gmail.com</span>
+        </a>
+        <a class="contact__item" href="tel:+524691213881">
+          <span class="contact__label">Celular</span>
+          <span class="contact__value">469 121 3881</span>
+        </a>
+        <a class="contact__item" href="https://www.linkedin.com/in/daniel-michael-lugo-m-86b536256/" target="_blank" rel="noopener">
+          <span class="contact__label">LinkedIn</span>
+          <span class="contact__value">/daniel-michael-lugo-m</span>
+        </a>
+        <div class="contact__item contact__item--static">
+          <span class="contact__label">Ubicación</span>
+          <span class="contact__value">Guanajuato, México</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Daniel Michael Lugo Meléndez · Hecho con HTML, CSS y JavaScript.</p>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/skills.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
